@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## [Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification CVPR 2019](https://arxiv.org/abs/1904.01990)
 
 ![](imgs/framework.png)
@@ -87,6 +86,6 @@ If you have any questions about this code, please do not hesitate to contact me.
 
 [Zhun Zhong](http://zhunzhong.site)
 
-=======
+
 # FMCL_UDA
->>>>>>> 36ca7cb50bbb68685bd54d74c5b46c55cc7b1c03
+36ca7cb50bbb68685bd54d74c5b46c55cc7b1c03
