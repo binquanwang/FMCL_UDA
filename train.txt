@@ -1,0 +1,8 @@
+nohup python main.py -s msmt17  -t duke    --logs-dir logs/duke2market-ECN --batch-size 128 --dropout 0.4 --lmd 0.7 --knn 18 --inv-beta 0.07   2>output.txt 1>contrast_2_msmttoduke18_lmd0.7_beta0.07.txt &
+--arch resnet_ibn50a   --features 2048 
+
+
+nohup python main_source.py -s duke -t market --logs-dir logs/pretrain_duke2market-ECN  --inv-beta 0.07   2>output.txt 1>pretrain.txt &
+
+nohup python main.py -s duke -t market --logs-dir logs/pretrain_duke2market-ECN  --inv-beta 0.07   2>output.txt 1>pretrain.txt &
+
