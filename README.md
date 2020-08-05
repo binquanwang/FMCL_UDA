@@ -1,4 +1,4 @@
-## [Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification CVPR 2019](https://arxiv.org/abs/1904.01990)
+## [Fast  Momentum Contrast Learning for Unsupervised Person Re-Identification]
 
 ![](imgs/framework.png)
 
@@ -39,18 +39,11 @@
 
   ```Shell
   # For Duke to Market-1501
-  python main.py -s duke -t market --logs-dir logs/duke2market-ECN
-  
+  python main.py -s duke  -t market    --logs-dir logs/duke2market-ECN --batch-size 128 --dropout 0.4 --lmd 0.7 --knn 18 --inv-beta 0.07  
   # For Market-1501 to Duke
-  python main.py -s market -t duke --logs-dir logs/market2duke-ECN
+  python main.py -s market  -t duke    --logs-dir logs/market2duke-ECN --batch-size 128 --dropout 0.4 --lmd 0.7 --knn 18 --inv-beta 0.07
   
-  # For Market-1501 to MSMT17
-  python main.py -s market -t msmt17 --logs-dir logs/market2msmt17-ECN --re 0
-  
-  # For Duke to MSMT17
-  python main.py -s duke -t msmt17 --logs-dir logs/duke2msmt17-ECN --re 0
-  ```
-
+ 
 
 ### Results
 
@@ -61,30 +54,15 @@
        
 ### References
 
-- [1] Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
+- [1] Our code is conducted based on [ECN](https://github.com/zhunzhong07/ECN)
 
-- [2] Camera Style Adaptation for Person Re-identification. CVPR 2018.
+- [2] Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification. CVPR 2019.
 
-- [3] Generalizing A Person Retrieval Model Hetero- and Homogeneously. ECCV 2018.
+- [3] Momentum Contrast for Unsupervised Visual Representation Learning. 
 
 
-### Citation
-
-If you find this code useful in your research, please consider citing:
-
-    @inproceedings{zhong2019invariance,
-      title={Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identiﬁcation},
-      author={Zhong, Zhun and Zheng, Liang and Luo, Zhiming and Li, Shaozi and Yang, Yi},
-      booktitle={Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-      year={2019},
-    }
 
     
-### Contact me
-
-If you have any questions about this code, please do not hesitate to contact me.
-
-[Zhun Zhong](http://zhunzhong.site)
 
 
 # FMCL_UDA
