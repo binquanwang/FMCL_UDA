@@ -7,7 +7,7 @@
 
 #### Requirements: Python=3.6 and Pytorch>=1.0.0
 
-1. Install [Pytorch](http://pytorch.org/)
+1. Install [Pytorch](http://pytorch.org/) opencv
 
 2. Download dataset
 
