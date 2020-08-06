@@ -47,9 +47,9 @@
 
 ### Results
 
-![](imgs/market_duke.png) 
+![](imgs/market.png) 
 
-![](imgs/msmt17.png)
+![](imgs/duke.png)
 
        
 ### References
