@@ -21,7 +21,7 @@
    Ensure the File structure is as follow:
    
    ```
-   PMCL/data    
+   FMCL/data    
    │
    └───market OR duke OR msmt17
       │   
