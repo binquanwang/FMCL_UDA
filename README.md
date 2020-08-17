@@ -46,7 +46,7 @@
   [[BaiduYun]](https://pan.baidu.com/s/1KwF285GpCsmMe77vH5wgrw) (password: 9ti2)
   # For Market-1501 to Duke
   python test.py -s market  -t duke    --logs-dir logs/market2duke-ECN --batch-size 128 --dropout 0.4 --lmd 0.3 --knn 18 --inv-beta 0.07 
-  [[BaiduYun]](https://pan.baidu.com/s/15mMbwx_QxRGM8M8X-uSvtQ) (466d)
+  [[BaiduYun]](https://pan.baidu.com/s/15mMbwx_QxRGM8M8X-uSvtQ) (password: 466d)
 
  
 
