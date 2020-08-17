@@ -42,7 +42,8 @@
   python main.py -s market  -t duke    --logs-dir logs/market2duke-ECN --batch-size 128 --dropout 0.4 --lmd 0.3 --knn 18 --inv-beta 0.07 
   test:
    # For Duke to Market-1501
-  python test.py -s duke  -t market    --logs-dir logs/duke2market-ECN --batch-size 128 --dropout 0.4 --lmd 0.3 --knn 18 --inv-beta 0.07  
+  python test.py -s duke  -t market    --logs-dir logs/duke2market-ECN --batch-size 128 --dropout 0.4 --lmd 0.3 --knn 18 --inv-beta 0.07 
+  [[BaiduYun]](http://pan.baidu.com/s/1ntIi2Op) (password: 6bu4)
   # For Market-1501 to Duke
   python test.py -s market  -t duke    --logs-dir logs/market2duke-ECN --batch-size 128 --dropout 0.4 --lmd 0.3 --knn 18 --inv-beta 0.07 
  
